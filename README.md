@@ -15,6 +15,10 @@ A comprehensive **Power BI analytics dashboard** built on Uber ride data, coveri
 | 👤 Rider | Rider segmentation and behaviour analysis |
 | 📍 Location | Pickup/drop-off location intelligence |
 
+
+<img width="1348" height="792" alt="Uber Dashboard" src="https://github.com/user-attachments/assets/ca52a0d9-67bf-408e-8520-65f2ea0ad9a4" />
+
+
 ---
 
 ## 📂 Repository Structure
@@ -22,10 +26,11 @@ A comprehensive **Power BI analytics dashboard** built on Uber ride data, coveri
 ```
 uber-powerbi-dashboard/
 │
+├──INSIGHTS.md              # Key business insights and findings
+├── Images.zip              # Dashboard screenshots and supporting visual assets
+├── README.md               # Project documentation and component guide
 ├── Uber.pbix               # Power BI report file (open in Power BI Desktop)
-├── README.md               # Project documentation
-├── INSIGHTS.md             # Key business insights and findings
-└── assets/                 # Screenshots and supporting images (optional)
+└── Uber.xlsx               # Raw Excel dataset containing ride and booking metrics
 ```
 
 ---
@@ -50,6 +55,10 @@ uber-powerbi-dashboard/
 | Customer Rating | Aggregate customer satisfaction score |
 | Driver Rating | Aggregate driver satisfaction score |
 
+
+
+
+
 **Charts**
 - 📈 **Area Chart** — Completed bookings trend over months
 - 📊 **Clustered Column Chart** — Monthly completed bookings comparison
@@ -59,6 +68,9 @@ uber-powerbi-dashboard/
 **Slicers**
 - Vehicle type filter (Advanced Slicer)
 - Time period / month filter
+
+- <img width="1347" height="792" alt="Uber overview" src="https://github.com/user-attachments/assets/673898ac-0ccd-40dc-9366-4cf1e3131cf6" />
+
 
 ---
 
@@ -75,6 +87,9 @@ uber-powerbi-dashboard/
 
 **Vehicle Types tracked:** UberGo, UberX, Premier, Auto, Moto, Intercity Comfort, and more.
 
+<img width="1342" height="787" alt="Uber Vehicle" src="https://github.com/user-attachments/assets/9f1833aa-56e5-45b1-a191-eee121fd5ad6" />
+
+
 ---
 
 ### 💰 Revenue
@@ -88,6 +103,9 @@ uber-powerbi-dashboard/
 - 🍩 **Donut Charts (×3)** — Booking status distribution
 
 **Payment Methods tracked:** Cash, UPI, Card, Wallet, etc.
+
+
+<img width="1360" height="787" alt="Uber Revenue" src="https://github.com/user-attachments/assets/3458cb36-feef-4af9-9036-41a0a239550f" />
 
 ---
 
@@ -105,8 +123,14 @@ uber-powerbi-dashboard/
 - 📋 **Table (Rider Detail)** — Per-customer breakdown (Booking Value, Lost/Completed rides, Avg Distance)
 - 📋 **Table (Cancellations)** — Driver cancellation reasons with booking counts
 
+
+
+
+
 **Slicer**
 - Customer / Rider filter
+
+- <img width="1343" height="781" alt="Uber Rider" src="https://github.com/user-attachments/assets/b2761e2c-c335-42ec-8c20-00d747802c20" />
 
 ---
 
@@ -119,6 +143,9 @@ uber-powerbi-dashboard/
 - 🍩 **Donut Charts (×3)** — Booking status by location segment
 - 📈 **Area Chart** — Completed bookings trend by month
 - 🔲 **Pivot Table** — Booking count heatmap by **Weekday × Time Slot**
+
+
+<img width="1355" height="790" alt="Uber Location" src="https://github.com/user-attachments/assets/0c3beae8-1c8f-41a0-9cc5-ee610026b177" />
 
 ---
 
